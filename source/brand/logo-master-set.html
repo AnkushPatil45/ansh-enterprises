@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Noto+Serif+Devanagari:wght@400;500;600&family=Jost:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing: border-box; }
+  body { margin: 0; }
+  .svgwrap svg { display:block; width:100%; height:auto; }
+</style>
+</helmet>
+<div style="background:#E7DDC7; min-height:100vh; padding:56px 48px 80px; font-family:'Jost',sans-serif;">
+  <div style="max-width:1080px; margin:0 auto;">
+
+    <div style="padding-bottom:20px; border-bottom:1px solid rgba(23,52,4,0.2); margin-bottom:34px;">
+      <div style="font-weight:400; letter-spacing:4px; font-size:12px; text-transform:uppercase; color:#993C1D;">Final Identity · Ansh Enterprises</div>
+      <div style="font-family:'Playfair Display',serif; font-weight:500; font-size:30px; margin-top:6px; color:#173404;">Logo System — Master Set</div>
+    </div>
+
+    <div style="display:grid; grid-template-columns:1fr 1fr; gap:26px;">
+
+      <div style="grid-column:1 / -1; background:#FBF6EA; border:1px solid rgba(23,52,4,0.12); padding:30px 34px;">
+        <div style="font-size:11px; letter-spacing:2px; text-transform:uppercase; color:rgba(23,52,4,0.45); margin-bottom:20px;">01 · Primary — Horizontal Lockup</div>
+        <div class="svgwrap" style="max-width:430px;" dangerouslySetInnerHTML="{{ primary }}"></div>
+      </div>
+
+      <div style="grid-column:1 / -1; background:#173404; border:1px solid rgba(0,0,0,0.2); padding:30px 34px;">
+        <div style="font-size:11px; letter-spacing:2px; text-transform:uppercase; color:rgba(251,246,234,0.55); margin-bottom:20px;">02 · Reversed — On Forest Green</div>
+        <div class="svgwrap" style="max-width:430px;" dangerouslySetInnerHTML="{{ reversed }}"></div>
+      </div>
+
+      <div style="background:#FBF6EA; border:1px solid rgba(23,52,4,0.12); padding:30px 34px; display:flex; flex-direction:column;">
+        <div style="font-size:11px; letter-spacing:2px; text-transform:uppercase; color:rgba(23,52,4,0.45); margin-bottom:14px;">03 · Stacked — Square / Social</div>
+        <div class="svgwrap" style="max-width:330px; margin:auto;" dangerouslySetInnerHTML="{{ stacked }}"></div>
+      </div>
+
+      <div style="background:#FBF6EA; border:1px solid rgba(23,52,4,0.12); padding:30px 34px; display:flex; flex-direction:column;">
+        <div style="font-size:11px; letter-spacing:2px; text-transform:uppercase; color:rgba(23,52,4,0.45); margin-bottom:20px;">04 · App Icon — Mark Only</div>
+        <div style="display:flex; align-items:center; justify-content:center; gap:36px; flex:1; flex-wrap:wrap;">
+          <div style="text-align:center;">
+            <div class="svgwrap" style="width:120px; margin:auto;" dangerouslySetInnerHTML="{{ iconForest }}"></div>
+            <div class="svgwrap" style="width:48px; margin:16px auto 0;" dangerouslySetInnerHTML="{{ iconForest }}"></div>
+            <div style="font-size:10px; letter-spacing:1px; color:rgba(23,52,4,0.45); margin-top:8px;">120 · 48 · 24px</div>
+            <div class="svgwrap" style="width:24px; margin:6px auto 0;" dangerouslySetInnerHTML="{{ iconForest }}"></div>
+          </div>
+          <div style="text-align:center;">
+            <div class="svgwrap" style="width:120px; margin:auto; outline:1px solid rgba(23,52,4,0.12);" dangerouslySetInnerHTML="{{ iconCream }}"></div>
+            <div class="svgwrap" style="width:48px; margin:16px auto 0; outline:1px solid rgba(23,52,4,0.12);" dangerouslySetInnerHTML="{{ iconCream }}"></div>
+            <div style="font-size:10px; letter-spacing:1px; color:rgba(23,52,4,0.45); margin-top:8px;">120 · 48 · 24px</div>
+            <div class="svgwrap" style="width:24px; margin:6px auto 0; outline:1px solid rgba(23,52,4,0.12);" dangerouslySetInnerHTML="{{ iconCream }}"></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script>
+class Component extends DCLogic {
+  constructor(p){ super(p); this.svgs = {}; }
+  componentDidMount(){
+    const names = {
+      primary: '1 Primary Horizontal -cream-',
+      reversed: '2 Reversed Horizontal -forest-',
+      stacked: '3 Stacked -cream-',
+      iconForest: '4 App Icon - Forest',
+      iconCream: '5 App Icon - Cream',
+    };
+    Promise.all(Object.entries(names).map(([k,f]) =>
+      fetch(`Ansh Logo SVG/${f}.svg`).then(r=>r.text()).then(t=>[k,t])
+    )).then(pairs => {
+      const o = {}; for (const [k,t] of pairs) o[k] = { __html: t };
+      this.svgs = o; this.forceUpdate();
+    });
+  }
+  renderVals(){
+    const e = { __html: '' };
+    const s = this.svgs;
+    return {
+      primary: s.primary||e, reversed: s.reversed||e, stacked: s.stacked||e,
+      iconForest: s.iconForest||e, iconCream: s.iconCream||e,
+    };
+  }
+}
+</script>
+</body>
+</html>

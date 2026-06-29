@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="300" viewBox="0 0 560 300" role="img" aria-label="Ansh Enterprises">
+  <title>Ansh Enterprises</title>
+  <!-- अ mark, centered -->
+  <g transform="translate(180.8,30) scale(1.6)">
+    <text x="62" y="96" font-family="'Noto Serif Devanagari', serif" font-size="96" font-weight="500" fill="#FBF6EA" text-anchor="middle">अ</text>
+    <path d="M88,32 C97,25 108,25 113,30 C106,35 97,37 90,35 C95,40 96,48 92,53 C86,47 84,39 88,32 Z" fill="#EF9F27"></path>
+  </g>
+  <!-- wordmark + tagline, large and centered -->
+  <text x="280" y="236" text-anchor="middle" font-family="'Playfair Display', serif" font-size="52" font-weight="600" letter-spacing="0.5" fill="#FBF6EA">Ansh Enterprises</text>
+  <text x="280" y="276" text-anchor="middle" font-size="28"><tspan font-family="'Noto Serif Devanagari', serif" fill="#EF9F27">शुद्ध</tspan><tspan font-family="'Playfair Display', serif" font-style="italic" fill="#EF9F27"> · The Old Way</tspan></text>
+</svg>

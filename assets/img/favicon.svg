@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="240" viewBox="0 0 240 240" role="img" aria-label="Ansh Enterprises">
+  <title>AE</title>
+  <circle cx="120" cy="120" r="120" fill="#173404"></circle>
+  <g transform="translate(4.456,23.848) scale(1.616)">
+    <text x="62" y="96" font-family="'Noto Serif Devanagari', serif" font-size="96" font-weight="500" fill="#FBF6EA" text-anchor="middle">अ</text>
+    <path d="M88,32 C97,25 108,25 113,30 C106,35 97,37 90,35 C95,40 96,48 92,53 C86,47 84,39 88,32 Z" fill="#EF9F27"></path>
+  </g>
+</svg>

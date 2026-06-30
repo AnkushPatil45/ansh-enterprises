@@ -16,5 +16,3 @@ Thumbs.db
 # Large source photo originals (not needed for editing or brochure regen; kept locally only)
 source/product-photos/
 
-# Local tooling
-.claude/

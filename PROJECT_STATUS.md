@@ -6,7 +6,25 @@
 > has actually been built and changed since then.
 >
 > **Local project folder:** `/Users/ankush/Documents/Ansh Enterprises`
-> **Last updated:** 2026-06-28 (Gold/Premium oils, image cutouts, EN+MR brochures)
+> **Last updated:** 2026-06-30 (logo kept as original अ; mobile UX; logo explorations parked)
+
+## Logo decision (current)
+- **The live logo on the website and brochures is the ORIGINAL अ mark** (अ + gold leaf-drop):
+  `assets/img/logo-mark.svg` (header), `assets/img/logo-stacked-reversed.svg` (hero/brochure),
+  `assets/img/favicon.svg`, `assets/img/og-image.png`.
+- We explored a redesign (a folded-ribbon "A") and many other concepts; the owner chose to
+  **revert to the original अ**. All explorations are **parked, not used**, in:
+  `source/brand/logo-alternates/` (A-based) and `source/brand/logo-concepts/` (sheets +
+  non-letter ideas). Nothing there is referenced by the site or brochures.
+- Asset links in `index.html` are cache-busted with `?v=` (currently `?v=9` on logos/favicon,
+  `?v=8` on css/js) — bump the number when a file changes so browsers reload it.
+
+## Sync status
+- Repo: **github.com/AnkushPatil45/ansh-enterprises** (private). Commits are kept clean / AI-free.
+- The **GitHub repo is behind the local working tree** — these improvements are committed locally
+  only in spirit but NOT yet pushed: mobile UX (header WhatsApp quick-button, 2-up product grid,
+  tighter spacing), product images switched to transparent cutouts + `object-fit: contain`,
+  straightened amla bottle, and the logo explorations. **Push when ready** to see them on mobile.
 
 ---
 

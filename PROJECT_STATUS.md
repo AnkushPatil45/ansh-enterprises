@@ -6,7 +6,7 @@
 > has actually been built and changed since then.
 >
 > **Local project folder:** `/Users/ankush/Documents/Ansh Enterprises`
-> **Last updated:** 2026-06-30 (Black Sesame Oil added; premium photos in; brochure mobile-readability pass)
+> **Last updated:** 2026-07-07 — **SITE IS LIVE: https://ankushpatil45.github.io/ansh-enterprises/**
 
 ## Logo decision (current)
 - **The live logo on the website and brochures is the ORIGINAL अ mark** (अ + gold leaf-drop):
@@ -33,7 +33,7 @@ Enterprises**; "Orgatma" is only a supplier (mentioned once in About, never as t
 
 Stack: plain HTML + CSS + vanilla JS, no build step. Catalog driven by `products.json`.
 
-**Nothing has been published live yet.** Do not deploy without the owner's go-ahead.
+**The site is LIVE** at https://ankushpatil45.github.io/ansh-enterprises/ (public repo, GitHub Pages from main). Every push to main auto-deploys in ~1 minute. A custom domain (e.g. anshenterprises.in) can be added later via a CNAME file + registrar DNS.
 
 ---
 
@@ -109,7 +109,7 @@ Stack: plain HTML + CSS + vanilla JS, no build step. Catalog driven by `products
    priority order: `reorder_list.py` (highest ROI), `update_products.py`, `weekly_summary.py`,
    optional `caption_helper.py`. These read Vyapar exports from `./data/` (git-ignored).
    `scripts/optimize_images.py` already exists (image helper, not a Vyapar script).
-3. **Deploy to GitHub Pages** — only when the owner approves going live (see README).
+3. ~~Deploy to GitHub Pages~~ — DONE (live). Next: optional custom domain; submit sitemap to Google Search Console; add the live URL to the Google Business Profile website field.
 4. Optional polish: reshoot the 3 soaps on white; replace placeholder reviews with real
    Google reviews; consider FSSAI licence number display; back-to-top button.
 

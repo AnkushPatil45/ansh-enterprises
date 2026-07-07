@@ -21,10 +21,7 @@
 
 ## Sync status
 - Repo: **github.com/AnkushPatil45/ansh-enterprises** (private). Commits are kept clean / AI-free.
-- The **GitHub repo is behind the local working tree** — these improvements are committed locally
-  only in spirit but NOT yet pushed: mobile UX (header WhatsApp quick-button, 2-up product grid,
-  tighter spacing), product images switched to transparent cutouts + `object-fit: contain`,
-  straightened amla bottle, and the logo explorations. **Push when ready** to see them on mobile.
+- Local and remote are **in sync** (everything through the Black Sesame/brochure update is pushed).
 
 ---
 

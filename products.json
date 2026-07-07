@@ -19,351 +19,606 @@
       "id": "groundnut-oil-gold",
       "name": "Groundnut Oil (Gold)",
       "category": "Oils",
-      "sizes": ["250 ml", "500 ml", "1 L", "2 L", "5 L"],
+      "sizes": [
+        "500 ml",
+        "1 L",
+        "5 L"
+      ],
       "description": "Our Gold grade: bright, light and clear, cold-pressed for clean everyday cooking.",
       "image": "assets/img/products/groundnut-oil-gold.webp",
       "available": true,
-      "tags": ["cold-pressed", "cooking", "gold"]
+      "tags": [
+        "cold-pressed",
+        "cooking",
+        "gold"
+      ]
     },
     {
       "id": "groundnut-oil-premium",
       "name": "Groundnut Oil (Premium)",
       "category": "Oils",
-      "sizes": ["250 ml", "500 ml", "1 L", "2 L", "5 L"],
+      "sizes": [
+        "500 ml",
+        "1 L",
+        "5 L"
+      ],
       "description": "Our Premium grade: denser, richer and deeper in colour, wood-pressed for fuller flavour.",
       "image": "assets/img/products/groundnut-oil-premium.webp",
       "available": true,
-      "tags": ["wood-pressed", "cooking", "premium"]
+      "tags": [
+        "wood-pressed",
+        "cooking",
+        "premium"
+      ]
     },
     {
       "id": "sunflower-oil",
       "name": "Sunflower Oil",
       "category": "Oils",
-      "sizes": ["250 ml", "500 ml", "1 L", "2 L", "5 L"],
+      "sizes": [
+        "500 ml",
+        "1 L",
+        "5 L"
+      ],
       "description": "Light, clean and cold-pressed. A mild everyday oil that lets the flavour of your food come through.",
       "image": "assets/img/products/sunflower-oil.webp",
       "available": true,
-      "tags": ["cold-pressed", "cooking"]
+      "tags": [
+        "cold-pressed",
+        "cooking"
+      ]
     },
     {
       "id": "mustard-oil-gold",
       "name": "Mustard Oil (Gold)",
       "category": "Oils",
-      "sizes": ["250 ml", "500 ml", "1 L", "2 L", "5 L"],
+      "sizes": [
+        "200 ml",
+        "500 ml",
+        "1 L",
+        "5 L"
+      ],
       "description": "Our Gold grade: sharp and pungent with a clear golden colour, cold-pressed for daily cooking and tadka.",
       "image": "assets/img/products/mustard-oil-gold.webp",
       "available": true,
-      "tags": ["cold-pressed", "cooking", "gold"]
+      "tags": [
+        "cold-pressed",
+        "cooking",
+        "gold"
+      ]
     },
     {
       "id": "mustard-oil-premium",
       "name": "Mustard Oil (Premium)",
       "category": "Oils",
-      "sizes": ["250 ml", "500 ml", "1 L", "2 L", "5 L"],
+      "sizes": [
+        "200 ml",
+        "500 ml",
+        "1 L",
+        "5 L"
+      ],
       "description": "Our Premium grade: denser and richer, wood-pressed for full strength and aroma.",
       "image": "assets/img/products/mustard-oil-premium.webp",
       "available": true,
-      "tags": ["wood-pressed", "cooking", "premium"]
+      "tags": [
+        "wood-pressed",
+        "cooking",
+        "premium"
+      ]
     },
     {
       "id": "safflower-oil",
       "name": "Safflower Oil",
       "category": "Oils",
-      "sizes": ["250 ml", "500 ml", "1 L", "2 L", "5 L"],
+      "sizes": [
+        "500 ml",
+        "1 L",
+        "5 L"
+      ],
       "description": "Light and heart-friendly with a high smoke point. An easy cold-pressed swap for daily cooking and frying.",
       "image": "assets/img/products/safflower-oil.webp",
       "available": true,
-      "tags": ["cold-pressed", "cooking"]
+      "tags": [
+        "cold-pressed",
+        "cooking"
+      ]
     },
     {
       "id": "coconut-oil",
       "name": "Coconut Oil",
       "category": "Oils",
-      "sizes": ["250 ml", "500 ml", "1 L"],
+      "sizes": [
+        "50 ml",
+        "100 ml",
+        "200 ml",
+        "500 ml",
+        "1 L",
+        "5 L"
+      ],
       "description": "Cold-pressed from fresh coconuts, pure white with a clean natural scent. Equally at home in the kitchen or on skin and hair.",
       "image": "assets/img/products/coconut-oil.webp",
       "available": true,
-      "tags": ["cold-pressed", "cooking", "hair", "skin"]
+      "tags": [
+        "cold-pressed",
+        "cooking",
+        "hair",
+        "skin"
+      ]
     },
     {
       "id": "virgin-coconut-oil",
       "name": "Virgin Coconut Oil",
       "category": "Oils",
-      "sizes": ["250 ml", "500 ml", "1 L"],
+      "sizes": [
+        "100 ml",
+        "200 ml",
+        "500 ml",
+        "1 L"
+      ],
       "description": "Single-pressed from fresh coconut, unrefined and never heated. The purest coconut oil for cooking, skin and hair.",
       "image": "assets/img/products/virgin-coconut-oil.webp",
       "available": true,
-      "tags": ["cold-pressed", "raw", "skin", "hair"]
+      "tags": [
+        "cold-pressed",
+        "raw",
+        "skin",
+        "hair"
+      ]
     },
     {
       "id": "flaxseed-oil",
       "name": "Flaxseed Oil",
       "category": "Oils",
-      "sizes": ["100 ml", "250 ml", "500 ml"],
+      "sizes": [
+        "200 ml",
+        "500 ml",
+        "1 L",
+        "5 L"
+      ],
       "description": "Cold-pressed and rich in plant Omega 3. Best taken raw, drizzled over salads and dal or stirred into a smoothie.",
       "image": "assets/img/products/flaxseed-oil.webp",
       "available": true,
-      "tags": ["cold-pressed", "omega-3", "health"]
+      "tags": [
+        "cold-pressed",
+        "omega-3",
+        "health"
+      ]
     },
     {
       "id": "sesame-oil-gold",
       "name": "Sesame Oil (Gold)",
       "category": "Oils",
-      "sizes": ["250 ml", "500 ml", "1 L", "5 L"],
+      "sizes": [
+        "200 ml",
+        "500 ml",
+        "1 L",
+        "5 L"
+      ],
       "description": "Our Gold grade: light, clear and nutty til oil, cold-pressed for everyday use and oil pulling.",
       "image": "assets/img/products/sesame-oil-gold.webp",
       "available": true,
-      "tags": ["cold-pressed", "cooking", "gold"]
+      "tags": [
+        "cold-pressed",
+        "cooking",
+        "gold"
+      ]
     },
     {
       "id": "sesame-oil-premium",
       "name": "Sesame Oil (Premium)",
       "category": "Oils",
-      "sizes": ["250 ml", "500 ml", "1 L", "5 L"],
+      "sizes": [
+        "200 ml",
+        "500 ml",
+        "1 L",
+        "5 L"
+      ],
       "description": "Our Premium grade: deep, dense and intensely nutty til oil, wood-pressed.",
       "image": "assets/img/products/sesame-oil-premium.webp",
       "available": true,
-      "tags": ["wood-pressed", "cooking", "premium"]
+      "tags": [
+        "wood-pressed",
+        "cooking",
+        "premium"
+      ]
     },
     {
       "id": "black-sesame-oil-premium",
       "name": "Black Sesame Oil (Premium)",
       "category": "Oils",
-      "sizes": ["250 ml", "500 ml", "1 L"],
+      "sizes": [
+        "1 L"
+      ],
       "description": "Cold-pressed from black til. Deeper, earthier and prized in traditional cooking and winter foods.",
       "image": "assets/img/products/black-sesame-oil-premium.webp",
       "available": true,
-      "tags": ["cold-pressed", "cooking", "premium"]
+      "tags": [
+        "cold-pressed",
+        "cooking",
+        "premium"
+      ]
     },
     {
       "id": "castor-oil",
       "name": "Castor Oil",
       "category": "Oils",
-      "sizes": ["100 ml", "200 ml", "500 ml"],
+      "sizes": [
+        "50 ml",
+        "100 ml",
+        "200 ml",
+        "1 L",
+        "5 L"
+      ],
       "description": "Cold-pressed, thick and pure. A trusted favourite for hair, scalp and skin care for generations.",
       "image": "assets/img/products/castor-oil.webp",
       "available": true,
-      "tags": ["cold-pressed", "hair", "skin"]
+      "tags": [
+        "cold-pressed",
+        "hair",
+        "skin"
+      ]
     },
     {
       "id": "almond-oil",
       "name": "Almond Oil",
       "category": "Oils",
-      "sizes": ["50 ml", "100 ml", "200 ml", "500 ml"],
+      "sizes": [
+        "50 ml",
+        "100 ml"
+      ],
       "description": "Cold-pressed from whole almonds with no heat or solvents. Light and nourishing for skin, hair and gentle massage.",
       "image": "assets/img/products/almond-oil.webp",
       "available": true,
-      "tags": ["cold-pressed", "skin", "hair"]
+      "tags": [
+        "cold-pressed",
+        "skin",
+        "hair"
+      ]
     },
     {
       "id": "a2-gir-cow-ghee",
       "name": "A2 Gir Cow Ghee",
       "category": "Ghee",
-      "sizes": ["250 ml", "500 ml", "1 L"],
+      "sizes": [
+        "100 g",
+        "250 g",
+        "500 g",
+        "1 kg"
+      ],
       "description": "Hand-churned the traditional bilona way from the A2 milk of desi Gir cows. Golden, grainy and deeply aromatic.",
       "image": "assets/img/products/a2-ghee.webp",
       "available": true,
-      "tags": ["a2", "traditional", "bilona"]
+      "tags": [
+        "a2",
+        "traditional",
+        "bilona"
+      ]
     },
     {
       "id": "honey",
       "name": "Honey",
       "category": "Honey & Sweeteners",
-      "sizes": ["250 g", "500 g", "1 kg"],
+      "sizes": [
+        "100 g",
+        "300 g",
+        "500 g",
+        "1 kg"
+      ],
       "description": "Wild, raw and unprocessed honey, never heated or filtered. Just pure honey, exactly as the bees made it.",
       "image": "assets/img/products/honey.webp",
       "available": true,
-      "tags": ["raw", "natural"]
+      "tags": [
+        "raw",
+        "natural"
+      ]
     },
     {
       "id": "chemical-free-jaggery",
       "name": "Chemical-Free Jaggery",
       "category": "Honey & Sweeteners",
-      "sizes": ["500 g", "1 kg"],
+      "sizes": [
+        "500 g",
+        "1 kg"
+      ],
       "description": "Traditional gul made without chemicals or sulphur. Earthy, rich and a wholesome swap for refined sugar.",
       "image": "assets/img/products/jaggery.webp",
       "available": true,
-      "tags": ["natural", "traditional"]
+      "tags": [
+        "natural",
+        "traditional"
+      ]
     },
     {
       "id": "jaggery-powder",
       "name": "Jaggery Powder",
       "category": "Honey & Sweeteners",
-      "sizes": ["500 g", "1 kg"],
+      "sizes": [
+        "450 g",
+        "950 g"
+      ],
       "description": "Chemical-free desi jaggery ground fine. Dissolves easily into tea, milk, sweets and baking.",
       "image": "assets/img/products/jaggery-powder.webp",
       "available": true,
-      "tags": ["natural", "traditional"]
+      "tags": [
+        "natural",
+        "traditional"
+      ]
     },
     {
       "id": "jaggery-cube",
       "name": "Jaggery Cube",
       "category": "Honey & Sweeteners",
-      "sizes": ["500 g", "1 kg"],
+      "sizes": [
+        "450 g",
+        "950 g"
+      ],
       "description": "Handy bite-sized jaggery cubes, made without chemicals. A natural little sweet after meals.",
       "image": "assets/img/products/jaggery-cube.webp",
       "available": true,
-      "tags": ["natural", "traditional"]
+      "tags": [
+        "natural",
+        "traditional"
+      ]
     },
     {
       "id": "high-curcumin-turmeric",
       "name": "High-Curcumin Turmeric",
       "category": "Spices",
-      "sizes": ["100 g", "250 g", "500 g"],
+      "sizes": [
+        "250 g",
+        "500 g",
+        "1 kg"
+      ],
       "description": "Single-source haldi with naturally high curcumin. Sun-dried and stone-ground, with no added colour.",
       "image": "assets/img/products/turmeric.webp",
       "available": true,
-      "tags": ["natural", "spice"]
+      "tags": [
+        "natural",
+        "spice"
+      ]
     },
     {
       "id": "himalayan-rock-salt",
       "name": "Himalayan Rock Salt",
       "category": "Spices",
-      "sizes": ["250 g", "500 g", "1 kg"],
+      "sizes": [
+        "500 g",
+        "1 kg"
+      ],
       "description": "Unrefined pink sendha namak from the Himalayas, naturally rich in minerals. Good for everyday use and fasting days.",
       "image": "assets/img/products/rock-salt.webp",
       "available": true,
-      "tags": ["natural", "mineral"]
+      "tags": [
+        "natural",
+        "mineral"
+      ]
     },
     {
       "id": "black-salt",
       "name": "Black Salt",
       "category": "Spices",
-      "sizes": ["60 g", "100 g"],
+      "sizes": [
+        "60 g",
+        "200 g"
+      ],
       "description": "Kala namak with its signature tangy, smoky-mineral taste. The finishing touch for chaats, raitas, salads and buttermilk.",
       "image": "assets/img/products/black-salt.webp",
       "available": true,
-      "tags": ["natural", "mineral", "spice"]
+      "tags": [
+        "natural",
+        "mineral",
+        "spice"
+      ]
     },
     {
       "id": "aloe-vera-juice",
       "name": "Sugar-Free Aloe Vera Juice",
       "category": "Health Care",
-      "sizes": ["500 ml", "1 L"],
+      "sizes": [
+        "500 ml"
+      ],
       "description": "Cold-pressed aloe vera with no added sugar. Light and soothing, an easy daily drink for skin and digestion.",
       "image": "assets/img/products/aloe-vera-juice.webp",
       "available": true,
-      "tags": ["sugar-free", "health", "gut"]
+      "tags": [
+        "sugar-free",
+        "health",
+        "gut"
+      ]
     },
     {
       "id": "amla-juice",
       "name": "Sugar-Free Amla Juice",
       "category": "Health Care",
-      "sizes": ["500 ml", "1 L"],
+      "sizes": [
+        "500 ml"
+      ],
       "description": "Cold-pressed amla with no added sugar. One of nature's richest sources of Vitamin C, taken as a daily wellness shot.",
       "image": "assets/img/products/amla-juice.webp",
       "available": true,
-      "tags": ["sugar-free", "vitamin-c", "health"]
+      "tags": [
+        "sugar-free",
+        "vitamin-c",
+        "health"
+      ]
     },
     {
       "id": "jamun-juice",
       "name": "Sugar-Free Jamun Juice",
       "category": "Health Care",
-      "sizes": ["500 ml", "1 L"],
+      "sizes": [
+        "500 ml"
+      ],
       "description": "Cold-pressed jamun with no added sugar. A traditional drink long valued for blood sugar support.",
       "image": "assets/img/products/jamun-juice.webp",
       "available": true,
-      "tags": ["sugar-free", "health"]
+      "tags": [
+        "sugar-free",
+        "health"
+      ]
     },
     {
       "id": "zankar-pain-relief-oil",
       "name": "Zankar Pain Relief Oil",
       "category": "Health Care",
-      "sizes": ["100 ml"],
+      "sizes": [
+        "100 ml"
+      ],
       "description": "A fast-acting herbal oil for tired joints and muscles. Massage in and let the warmth do its work.",
       "image": "assets/img/products/zankar-oil.webp",
       "available": true,
-      "tags": ["herbal", "pain-relief"]
+      "tags": [
+        "herbal",
+        "pain-relief"
+      ]
     },
     {
       "id": "amla-prash",
       "name": "Amla Prash",
       "category": "Health Care",
-      "sizes": ["250 g", "500 g"],
+      "sizes": [
+        "200 g"
+      ],
       "description": "An amla-rich herbal preserve made to support everyday immunity. A spoonful a day for the whole family.",
       "image": "assets/img/products/amla-prash.webp",
       "available": true,
-      "tags": ["herbal", "immunity"]
+      "tags": [
+        "herbal",
+        "immunity"
+      ]
     },
     {
       "id": "gulkand-prash",
       "name": "Gulkand Prash",
       "category": "Health Care",
-      "sizes": ["250 g", "500 g"],
+      "sizes": [
+        "200 g"
+      ],
       "description": "A cooling rose-petal preserve blended with herbs. Naturally sweet, fragrant and soothing in the warmer months.",
       "image": "assets/img/products/gulkand-prash.webp",
       "available": true,
-      "tags": ["herbal", "cooling"]
+      "tags": [
+        "herbal",
+        "cooling"
+      ]
     },
     {
       "id": "kalonji-oil",
       "name": "Cold-Pressed Kalonji Oil",
       "category": "Skin & Hair",
-      "sizes": ["100 ml", "250 ml"],
+      "sizes": [
+        "50 ml",
+        "100 ml",
+        "200 ml",
+        "500 ml",
+        "1 L",
+        "5 L"
+      ],
       "description": "Cold-pressed black seed (kalonji) oil. Long treasured across cultures for hair, scalp and wellness.",
       "image": "assets/img/products/kalonji-oil.webp",
       "available": true,
-      "tags": ["cold-pressed", "hair", "nigella"]
+      "tags": [
+        "cold-pressed",
+        "hair",
+        "nigella"
+      ]
     },
     {
       "id": "neem-citronella-soap",
       "name": "Neem Citronella Gomay Bar",
       "category": "Skin & Hair",
-      "sizes": ["100 g"],
+      "sizes": [
+        "100 g"
+      ],
       "description": "A handmade gomay bar with neem and citronella. Naturally cleansing and refreshing, gentle enough for daily use.",
       "image": "assets/img/products/neem-soap.webp",
       "available": true,
-      "tags": ["handmade", "natural-soap"]
+      "tags": [
+        "handmade",
+        "natural-soap"
+      ]
     },
     {
       "id": "ubtan-soap",
       "name": "Ubtan Gomay Bar",
       "category": "Skin & Hair",
-      "sizes": ["100 g"],
+      "sizes": [
+        "100 g"
+      ],
       "description": "A handmade gomay bath bar with a traditional ubtan blend. Gently cleanses and leaves skin soft and glowing.",
       "image": "assets/img/products/ubtan-soap.webp",
       "available": true,
-      "tags": ["handmade", "ubtan", "natural-soap"]
+      "tags": [
+        "handmade",
+        "ubtan",
+        "natural-soap"
+      ]
     },
     {
       "id": "bhimseni-kapoor-soap",
       "name": "Bhimseni Kapoor Soap",
       "category": "Skin & Hair",
-      "sizes": ["100 g"],
+      "sizes": [
+        "100 g"
+      ],
       "description": "A handmade soap with pure bhimseni camphor. Cooling and cleansing, with a fresh, calming aroma.",
       "image": "assets/img/products/kapoor-soap.webp",
       "available": true,
-      "tags": ["handmade", "camphor", "natural-soap"]
+      "tags": [
+        "handmade",
+        "camphor",
+        "natural-soap"
+      ]
     },
     {
       "id": "deepam-oil",
       "name": "Deepam Oil",
       "category": "Pooja",
-      "sizes": ["500 ml", "1 L", "5 L"],
+      "sizes": [
+        "500 ml",
+        "1 L"
+      ],
       "description": "Pure, clean-burning lamp oil for your daily diya and puja. Lights easily and holds a steady, bright flame.",
       "image": "assets/img/products/deepam-oil.webp",
       "available": true,
-      "tags": ["pooja", "lamp"]
+      "tags": [
+        "pooja",
+        "lamp"
+      ]
     },
     {
       "id": "bhimseni-kapoor",
       "name": "Bhimseni Kapoor",
       "category": "Pooja",
-      "sizes": ["50 g", "100 g"],
+      "sizes": [
+        "50 g",
+        "100 g",
+        "250 g",
+        "500 g",
+        "1 kg"
+      ],
       "description": "Pure natural bhimseni camphor with no synthetic fillers. For aarti, dhoop and a naturally fragrant home.",
       "image": "assets/img/products/bhimseni-kapoor.webp",
       "available": true,
-      "tags": ["pooja", "camphor"]
+      "tags": [
+        "pooja",
+        "camphor"
+      ]
     },
     {
       "id": "clay-utensils",
       "name": "Clay Utensils",
       "category": "Clay",
-      "sizes": ["Various"],
+      "sizes": [
+        "Various"
+      ],
       "description": "Handcrafted clay cookware and serving ware that brings food back to its earthy roots. Ask us for the current range.",
       "image": "assets/img/products/clay-utensils.webp",
       "available": true,
-      "tags": ["clay", "traditional"]
+      "tags": [
+        "clay",
+        "traditional"
+      ]
     }
   ]
 }

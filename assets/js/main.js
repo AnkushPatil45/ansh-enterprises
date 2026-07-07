@@ -7,7 +7,7 @@
 
 // --------------- Config ---------------
 const CONFIG = {
-  baseUrl: 'https://anshenterprises.github.io',
+  baseUrl: 'https://ankushpatil45.github.io/ansh-enterprises',
   ga4Id: 'G-YXW401W2XD', // Google Analytics 4 Measurement ID
   assetVersion: '6',     // bump when product images change, to bust browser cache
 };

@@ -52,7 +52,7 @@ Hosted free on GitHub Pages. Orders happen via WhatsApp links — no cart, no se
 1. Create a GitHub account / repo named `anshenterprises` (or the username confirmed by owner).
 2. Push this folder to the `main` branch.
 3. Go to **Settings → Pages → Source → Deploy from branch → main → / (root)**.
-4. Site goes live at `https://anshenterprises.github.io` within ~2 minutes.
+4. Site goes live at `https://ankushpatil45.github.io/ansh-enterprises` within ~2 minutes.
 5. To use a custom domain (e.g. `anshenterprises.in`): add a `CNAME` file containing just the domain, then configure DNS at your registrar.
 
 **To update the site:** edit files locally → `git add` → `git commit` → `git push`. GitHub Pages rebuilds automatically.

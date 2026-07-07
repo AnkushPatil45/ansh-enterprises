@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://anshenterprises.github.io/sitemap.xml
+Sitemap: https://ankushpatil45.github.io/ansh-enterprises/sitemap.xml

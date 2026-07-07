@@ -38,6 +38,7 @@ CATS=[
  ("mustard-oil-premium.webp","Mustard Oil (Premium)","मोहरी तेल (प्रीमियम)","Good for the heart","हृदयासाठी उत्तम"),
  ("sesame-oil-gold.webp","Sesame Oil (Gold)","तीळ तेल (गोल्ड)","Good for bones","हाडांसाठी उत्तम"),
  ("sesame-oil-premium.webp","Sesame Oil (Premium)","तीळ तेल (प्रीमियम)","Good for bones","हाडांसाठी उत्तम"),
+ ("black-sesame-oil-premium.webp","Black Sesame Oil (Premium)","काळे तीळ तेल (प्रीमियम)","Rich in calcium","कॅल्शियमयुक्त"),
  ("sunflower-oil.webp","Sunflower Oil","सूर्यफूल तेल","Light & heart-friendly","हलकं, हृदयासाठी"),
  ("safflower-oil.webp","Safflower Oil","करडई तेल","Good for cholesterol","कोलेस्ट्रॉलसाठी उत्तम"),
  ("coconut-oil.webp","Coconut Oil","खोबरेल तेल","Cooking, skin & hair","स्वयंपाक व केसांसाठी"),
@@ -102,45 +103,46 @@ body{width:1080px;background:#FBF6EA;color:#2C2C2A;font-family:'Poppins',sans-se
 .lang-mr{font-family:'Mukta',sans-serif}
 .lang-mr .serif{font-family:'Noto Serif Devanagari',serif}
 .ghani{position:absolute;pointer-events:none}
-.header{position:relative;overflow:hidden;text-align:center;padding:58px 40px 46px;
+.header::after{content:"";position:absolute;inset:18px;border:1.5px solid rgba(239,159,39,.35);border-radius:10px;pointer-events:none}
+.header{position:relative;overflow:hidden;text-align:center;padding:66px 40px 56px;
   background:radial-gradient(120% 90% at 50% -10%, #1d4607 0%, #173404 62%)}
 .header .ghani{right:14px;top:50%;transform:translateY(-50%);width:230px;color:#c0dd97;opacity:.12}
-.header img.logo{position:relative;width:330px;height:auto;margin:0 auto 16px;display:block}
+.header img.logo{position:relative;width:390px;height:auto;margin:0 auto 16px;display:block}
 .rule{width:300px;height:3px;background:#EF9F27;margin:6px auto 18px;border-radius:3px}
-.hsub{position:relative;color:#e7eed8;font-size:25px;letter-spacing:.01em}
+.hsub{position:relative;color:#e7eed8;font-size:30px;letter-spacing:.01em}
 .hero{text-align:center;padding:44px 40px 6px}
-.hero .h{font-style:italic;color:#993C1D;font-size:42px}
+.hero .h{font-style:italic;color:#993C1D;font-size:48px}
 .section{padding:60px 70px 56px;border-top:1px solid rgba(23,52,4,.08)}
-.snum{display:block;color:#EF9F27;font-weight:700;letter-spacing:.24em;font-size:17px;margin-bottom:12px}
+.snum{display:block;color:#EF9F27;font-weight:700;letter-spacing:.24em;font-size:20px;margin-bottom:12px}
 .shead{display:flex;align-items:center;gap:22px}
-.bar{width:14px;height:48px;background:#EF9F27;border-radius:7px;flex:none}
-.shead h2{font-size:46px;color:#173404;font-weight:700;line-height:1}
-.ssub{font-style:italic;color:#7e826e;font-size:24px;margin:14px 0 30px 36px}
-.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:26px 30px}
+.bar{width:14px;height:54px;background:#EF9F27;border-radius:7px;flex:none}
+.shead h2{font-size:54px;color:#173404;font-weight:700;line-height:1}
+.ssub{font-style:italic;color:#7e826e;font-size:28px;margin:14px 0 30px 36px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:34px 30px}
 .grid.single{display:flex;justify-content:center}
 .grid.single .card{width:33.3%}
 .card{text-align:center;padding:6px}
 .card .imgwrap{height:300px;display:flex;align-items:center;justify-content:center}
 .card img{max-width:84%;max-height:300px;object-fit:contain}
-.card .nm{font-size:26px;color:#173404;font-weight:600;margin-top:16px;line-height:1.2}
-.card .tag{color:#b07a16;font-weight:700;font-size:15px;letter-spacing:.10em;text-transform:uppercase;margin-top:7px}
-.trust{background:#EAF3DE;text-align:center;color:#173404;font-weight:700;font-size:21px;letter-spacing:.07em;padding:34px 40px;margin-top:38px}
+.card .nm{font-size:33px;color:#173404;font-weight:600;margin-top:16px;line-height:1.2}
+.card .tag{color:#b07a16;font-weight:700;font-size:19px;letter-spacing:.08em;text-transform:uppercase;margin-top:7px}
+.trust{background:#EAF3DE;text-align:center;color:#173404;font-weight:700;font-size:26px;letter-spacing:.07em;padding:34px 40px;margin-top:38px}
 .contact{position:relative;overflow:hidden;background:#173404;color:#dde6cd;padding:52px 70px 58px}
 .contact .ghani{left:6px;bottom:18px;width:230px;color:#EF9F27;opacity:.12;transform:scaleX(-1)}
-.cta{position:relative;color:#EF9F27;font-size:50px;font-weight:700;text-align:center}
+.cta{position:relative;color:#EF9F27;font-size:56px;font-weight:700;text-align:center}
 .cline{width:300px;height:3px;background:#5a7832;margin:18px auto 6px;border-radius:3px}
 .cwrap{position:relative;display:flex;gap:48px;align-items:center;margin-top:30px}
 .details{flex:1}
 .row{margin-bottom:22px}
-.row .lab{color:#EF9F27;font-weight:700;font-size:18px;letter-spacing:.08em;text-transform:uppercase}
-.row .val{color:#FBF6EA;font-size:24px;margin-top:4px;line-height:1.35}
+.row .lab{color:#EF9F27;font-weight:700;font-size:22px;letter-spacing:.08em;text-transform:uppercase}
+.row .val{color:#FBF6EA;font-size:30px;margin-top:4px;line-height:1.35}
 .qr{flex:none;text-align:center}
 .qr .qrbox{background:#fff;border-radius:18px;padding:18px;display:inline-block}
-.qr img{width:250px;height:250px;display:block}
-.qr .scan{color:#dde6cd;font-size:18px;letter-spacing:.1em;text-transform:uppercase;margin-top:14px}
+.qr img{width:270px;height:270px;display:block}
+.qr .scan{color:#dde6cd;font-size:22px;letter-spacing:.1em;text-transform:uppercase;margin-top:14px}
 .orderlink{position:relative;display:block;text-align:center;margin-top:36px}
-.orderlink a{display:inline-block;background:#EF9F27;color:#173404;font-weight:700;font-size:28px;
-  text-decoration:none;padding:18px 46px;border-radius:999px}
+.orderlink a{display:inline-block;background:#EF9F27;color:#173404;font-weight:700;font-size:34px;
+  text-decoration:none;padding:20px 52px;border-radius:999px}
 .lang-mr .trust,.lang-mr .tag,.lang-mr .scan,.lang-mr .row .lab{letter-spacing:normal}
 .lang-mr .card .nm{font-family:'Noto Serif Devanagari',serif;font-weight:600}
 """

@@ -126,6 +126,16 @@
       "tags": ["wood-pressed", "cooking", "premium"]
     },
     {
+      "id": "black-sesame-oil-premium",
+      "name": "Black Sesame Oil (Premium)",
+      "category": "Oils",
+      "sizes": ["250 ml", "500 ml", "1 L"],
+      "description": "Cold-pressed from black til. Deeper, earthier and prized in traditional cooking and winter foods.",
+      "image": "assets/img/products/black-sesame-oil-premium.webp",
+      "available": true,
+      "tags": ["cold-pressed", "cooking", "premium"]
+    },
+    {
       "id": "castor-oil",
       "name": "Castor Oil",
       "category": "Oils",

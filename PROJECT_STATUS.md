@@ -6,7 +6,7 @@
 > has actually been built and changed since then.
 >
 > **Local project folder:** `/Users/ankush/Documents/Ansh Enterprises`
-> **Last updated:** 2026-06-30 (logo kept as original अ; mobile UX; logo explorations parked)
+> **Last updated:** 2026-06-30 (Black Sesame Oil added; premium photos in; brochure mobile-readability pass)
 
 ## Logo decision (current)
 - **The live logo on the website and brochures is the ORIGINAL अ mark** (अ + gold leaf-drop):
@@ -104,10 +104,10 @@ Stack: plain HTML + CSS + vanilla JS, no build step. Catalog driven by `products
 ---
 
 ## 4. Remaining work / next steps
-1. **Pending photos:** Clay Utensils (shows 🌿 placeholder); Mustard Premium & Sesame Premium
-   (show "premium photo coming soon" placeholder). When provided: optimize + they auto-wire
-   (`clay-utensils.webp`, `mustard-oil-premium.webp`, `sesame-oil-premium.webp`).
-   Also optional: reshoot the 3 soaps on plain white (current ones are auto-cropped).
+1. **Pending photos:** only Clay Utensils (shows 🌿 placeholder) — wire as `clay-utensils.webp`.
+   Mustard/Sesame Premium photos are IN, plus a new product: **Black Sesame Oil (Premium)**
+   (35 products now). Brochure text sizes were increased for mobile readability and the banner
+   got a gold keyline frame. Soaps still use original photos (owner's choice).
 2. **Automation scripts (`/scripts`)** — NOT built yet. From `PROJECT_BRIEF.md §6`, in
    priority order: `reorder_list.py` (highest ROI), `update_products.py`, `weekly_summary.py`,
    optional `caption_helper.py`. These read Vyapar exports from `./data/` (git-ignored).

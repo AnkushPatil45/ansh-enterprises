@@ -46,7 +46,7 @@ function waGeneral() {
 function waOrderFromCart() {
   const items = Object.values(cart);
   if (items.length === 0) return waGeneral();
-  const lines = items.map(i => `• ${i.name} (${i.size}) x${i.qty}`).join('\n');
+  const lines = items.map(i => `• ${i.name}${i.size ? ` (${i.size})` : ''} x${i.qty}`).join('\n');
   const msg =
     `Namaste! I'd like to order from Ansh Enterprises:\n${lines}\n\n` +
     `My name is ____ and my area is ____.\n` +
@@ -157,7 +157,7 @@ function productCard(p) {
     ? `<select class="product-card__size-select" aria-label="Choose size for ${escHtml(p.name)}">
          ${p.sizes.map(s => `<option value="${escHtml(s)}">${escHtml(s)}</option>`).join('')}
        </select>`
-    : `<span class="product-card__size">${escHtml(p.sizes[0])}</span>`;
+    : (p.sizes.length === 1 ? `<span class="product-card__size">${escHtml(p.sizes[0])}</span>` : '');
 
   card.innerHTML = `
     <div class="product-card__image">
@@ -181,7 +181,7 @@ function productCard(p) {
     btn.innerHTML = `<span aria-hidden="true">+</span> Add to order`;
     btn.addEventListener('click', () => {
       const select = card.querySelector('.product-card__size-select');
-      const size = select ? select.value : p.sizes[0];
+      const size = select ? select.value : (p.sizes[0] || '');
       addToCart(p, size);
       flashAdded(btn);
     });

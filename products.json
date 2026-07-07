@@ -317,8 +317,8 @@
       "name": "Chemical-Free Jaggery",
       "category": "Honey & Sweeteners",
       "sizes": [
-        "500 g",
-        "1 kg"
+        "450 g",
+        "950 g"
       ],
       "description": "Traditional gul made without chemicals or sulphur. Earthy, rich and a wholesome swap for refined sugar.",
       "image": "assets/img/products/jaggery.webp",
@@ -461,9 +461,7 @@
       "id": "zankar-pain-relief-oil",
       "name": "Zankar Pain Relief Oil",
       "category": "Health Care",
-      "sizes": [
-        "100 ml"
-      ],
+      "sizes": [],
       "description": "A fast-acting herbal oil for tired joints and muscles. Massage in and let the warmth do its work.",
       "image": "assets/img/products/zankar-oil.webp",
       "available": true,

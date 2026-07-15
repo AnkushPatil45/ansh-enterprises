@@ -20,7 +20,7 @@
   product images via `assetVersion` in main.js CONFIG) — bump when a file changes.
 
 ## Sync status
-- Repo: **github.com/AnkushPatil45/ansh-enterprises** (private). Commits are kept clean / AI-free.
+- Repo: **github.com/AnkushPatil45/ansh-enterprises** (PUBLIC — required for free Pages). Commits are kept clean / AI-free.
 - Local and remote are **in sync**; every push to main auto-deploys the LIVE site in ~1 min.
 - **Marketing kit (`marketing/`):** EN + Marathi brochures (JPG + tappable PDF), A6 review card,
   4 review sticker designs (all QRs machine-verified to g.page/r/CT4JK8Ze2bKzEBE/review).

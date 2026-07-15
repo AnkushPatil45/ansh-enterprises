@@ -16,12 +16,19 @@
   **revert to the original अ**. All explorations are **parked, not used**, in:
   `source/brand/logo-alternates/` (A-based) and `source/brand/logo-concepts/` (sheets +
   non-letter ideas). Nothing there is referenced by the site or brochures.
-- Asset links in `index.html` are cache-busted with `?v=` (currently `?v=9` on logos/favicon,
-  `?v=8` on css/js) — bump the number when a file changes so browsers reload it.
+- Asset links in `index.html` are cache-busted with `?v=` (css `?v=11`, js `?v=11`, logos `?v=9`;
+  product images via `assetVersion` in main.js CONFIG) — bump when a file changes.
 
 ## Sync status
 - Repo: **github.com/AnkushPatil45/ansh-enterprises** (private). Commits are kept clean / AI-free.
-- Local and remote are **in sync** (everything through the Black Sesame/brochure update is pushed).
+- Local and remote are **in sync**; every push to main auto-deploys the LIVE site in ~1 min.
+- **Marketing kit (`marketing/`):** EN + Marathi brochures (JPG + tappable PDF), A6 review card,
+  4 review sticker designs (all QRs machine-verified to g.page/r/CT4JK8Ze2bKzEBE/review).
+- **Review link** is wired on the site ("Leave a review") and in both brochure PDFs.
+- **About section** now has a custom wooden-ghani illustration (assets/img/ghani-illustration.webp);
+  Clay Utensils uses a custom terracotta illustration — every product has an image.
+- **35 products**, sizes synced to the owner's Vyapar inventory export (2026-06-30); Zankar has
+  no size by design; prices remain hidden everywhere.
 
 ---
 
